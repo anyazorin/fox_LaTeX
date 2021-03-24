@@ -1,0 +1,33 @@
+body{
+   font-family: Verdana;
+}
+#navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-weight:bold;
+    font-size: x-large;
+    background-color: rgb(168, 168, 168);
+    line-height: 50px;
+}
+
+.title{
+    text-align: center;
+    padding-top:5%;
+    font-weight:bold;
+    font-size: xx-large;
+}
+.body_p{
+    font-size: large;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
