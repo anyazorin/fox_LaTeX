@@ -72,7 +72,33 @@
             <li>One</li>
             <li>Two</li>
           </ol>
-      </div>
+        </div>
+
+        <div class="sec"2.3: Images</div>
+        <div class="body_p">
+          <img src="images/ImageUpload.png">
+          <p>To incorporate images in your documents, use the package <b>graphicx</b> and upload the images to Overleaf.</p>
+          <p>Click the triple dots to the right of your main.tex. You can upload from your computer files or import from any other existing Overleaf project you have.</p>
+          <p>Use the command <b>graphicspath</b> to specify the folder of your images. If your images are on the root level, you do not need to use this command.</p>
+          <p>The basic command for using an image is</p>
+          <img src="images/GraphicsCommand.png">
+          <p>The brackets and its contents are not required.</p>
+          <br>
+          <img src="images/FigureEnvironment.png">
+          <p>An environment can be used for more features.</p>
+          <p>The first image to use a caption will be captioned "Figure 1:", followed by your text. Each following image with a caption will increment in its figure number by one.</p>
+          <p>With the <b>label</b> command, you can assign an image a name to refer to its figure number easily. In addition to helping you and readers to quickly find an image, this also helps if the figure number changes frequently (due to adding images before it).</p>
+
+          <figure>
+            <img src="images/GenericImage.jpg">
+            <figcaption>This is a generic coding image without additional formatting. Its size breaks past the right border.</figcaption>
+          </figure>
+          <figure>
+            <img src="images/ImageFormatting.png">
+            <figcaption>This has some formatting.</figcaption>
+          </figure>
+          <p>Figure 2 also uses some other environments to format. This text is wrapped around the image using the <b>wrapfig</b> package. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis.<p>
+        </div>
 
       <div id = "misc">
         <div class="title">3: Very Helpful Miscellaneous Tips</div>
