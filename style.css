@@ -47,6 +47,15 @@ body{
   width: 25%;
 }
 
+.note {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: x-large;
+}
+
 #basics, #resources{
     text-align: center;
 }
