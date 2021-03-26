@@ -57,6 +57,15 @@ body{
   font-size: x-large;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 3px;
+}
+
 #basics, #resources{
     text-align: center;
 }
