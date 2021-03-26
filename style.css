@@ -33,8 +33,11 @@ body{
     color: white;
 }
 
-.h3{
+.sec{
     text-align: center;
+    font-weight: bold;
+    padding-top: 5%;
+    font-size: x-large;
 }
 
 #basics, #resources{
