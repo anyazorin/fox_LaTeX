@@ -5,8 +5,9 @@ body{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    width:100%;
     font-weight:bold;
-    font-size: x-large;
+    font-size: large;
     background-color: rgb(168, 168, 168);
     line-height: 50px;
 }
@@ -22,12 +23,28 @@ body{
     padding-left: 10%;
     padding-right: 10%;
 }
-a{
+.navs{
     text-decoration: none;
     color: black;
     padding: 2%;
 }
-a:hover{
+.navs:hover{
+    background-color: black;
+    color: white;
+}
+#basics, #resources{
+    text-align: center;
+}
+
+#button{
+    text-decoration: none;
+    color: black;
+    background-color:rgb(168, 168, 168);
+    padding: 1%;
+    font-size: large;
+}
+
+#button:hover{
     background-color: black;
     color: white;
 }
