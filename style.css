@@ -32,6 +32,11 @@ body{
     background-color: black;
     color: white;
 }
+
+.h3{
+    text-align: center;
+}
+
 #basics, #resources{
     text-align: center;
 }
