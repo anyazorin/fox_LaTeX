@@ -22,12 +22,12 @@
         <div class="body_p">
           <p>Overleaf (this is not a feature of LaTex itself) provides you with a variety of templates to use for a variety of different types of projects. Click <b>View All</b> to see even more.</p>
           <p>If you're unsure about what type of format you want or prefer to make your own, a "Blank Project" will give you the framework for a very simple document.</p>
-          <img src="images/Templates.png">
-          <img src="images/BlankProject.png">
+          <img src="images/Templates.png" class="center">
+          <img src="images/BlankProject.png" class="center">
         </div>
 
         <div class="sec">1.2: Document Formatting, Title, and Table of Contents</div>
-        <img src="images/TitlePage.png">
+        <img src="images/TitlePage.png" class="center">
         <div class="body_p">
           <p>The first line defines the <b>type of document</b>; within the preceding brackets <b>font size</b> (in pt) and <b>paper size</b> (a4paper, legalpaper, and letterpaper) can be adjusted as well. The default font size is 10pt and the default paper size is letterpaper (8.5' x 11').</p>
           <p>The second line defines the <b>encoding. In general, don't touch this</b>. In the lines after, <b>import the packages you are going to use</b>. If you plan on using images use the "graphicx" package and provide a graphics path if you plan to have the images in sub-directories.</p>
@@ -40,9 +40,9 @@
         <div class="body_p">
           <p>These commands are used to divide the document into sections.</p>
           <p>From the highest to lowest tier:</p>
-          <img src="images/SectionTiers.png">
+          <img src="images/SectionTiers.png" class="center">
           <p>These sections are automatically numbered.</p>
-          <img src="images/Sections.png">
+          <img src="images/Sections.png" class="center">
         </div>
       </div>
 
@@ -50,7 +50,7 @@
         <div class="title">2: Commands</div>
         <div class="sec">2.1: Text Formatting</div>
         <div class="body_p">
-          <img src="images/TextFormat.png">
+          <img src="images/TextFormat.png" class="center">
           <ul>
             <b><li>This text is bolded.</li></b>
             <i><li>This text is italicized.</li></i>
@@ -60,49 +60,53 @@
 
         <div class="sec">2.2: Lists</div>
         <div class="body_p">
-          <img src="images/Unordered.png">
+          <img src="images/Unordered.png" align="left">
           This is an unordered bullet list.
           <ul>
             <li>One</li>
             <li>Two</li>
           </ul>
           This is an ordered list.
-          <img src="images/Ordered.png">
+          <img src="images/Ordered.png" align="right">
           <ol>
             <li>One</li>
             <li>Two</li>
           </ol>
         </div>
 
-        <div class="sec"2.3: Images</div>
+        <div class="sec">2.3: Images</div>
         <div class="body_p">
-          <img src="images/ImageUpload.png">
+          <img src="images/ImageUpload.png" class="center">
           <p>To incorporate images in your documents, use the package <b>graphicx</b> and upload the images to Overleaf.</p>
           <p>Click the triple dots to the right of your main.tex. You can upload from your computer files or import from any other existing Overleaf project you have.</p>
           <p>Use the command <b>graphicspath</b> to specify the folder of your images. If your images are on the root level, you do not need to use this command.</p>
           <p>The basic command for using an image is</p>
-          <img src="images/GraphicsCommand.png">
+          <img src="images/GraphicsCommand.png" class="center">
           <p>The brackets and its contents are not required.</p>
           <br>
-          <img src="images/FigureEnvironment.png">
+          <img src="images/FigureEnvironment.png" class="center">
           <p>An environment can be used for more features.</p>
           <p>The first image to use a caption will be captioned "Figure 1:", followed by your text. Each following image with a caption will increment in its figure number by one.</p>
           <p>With the <b>label</b> command, you can assign an image a name to refer to its figure number easily. In addition to helping you and readers to quickly find an image, this also helps if the figure number changes frequently (due to adding images before it).</p>
 
           <figure>
-            <img src="images/GenericImage.jpg">
+            <img src="images/GenericImage.jpg" class="center">
             <figcaption>This is a generic coding image without additional formatting. Its size breaks past the right border.</figcaption>
           </figure>
           <figure>
-            <img src="images/ImageFormatting.png">
+            <img src="images/ImageFormatting.png" class="center">
             <figcaption>This has some formatting.</figcaption>
           </figure>
           <p>Figure 2 also uses some other environments to format. This text is wrapped around the image using the <b>wrapfig</b> package. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis.<p>
         </div>
 
       <div id = "misc">
-        <div class="title">3: Very Helpful Miscellaneous Tips</div>
-        <div class="body_p"> </div>
+        <div class="title">3: Helpful Things I Should've Explained Earlier</div>
+        <div class="body_p">
+          <ol>
+
+          </ol>
+        </div>
       </div>
     </div>
   </body>
